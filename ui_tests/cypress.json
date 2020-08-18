@@ -1,0 +1,9 @@
+{
+    "viewportWidth": 1024,
+    "viewportHeight": 768,
+    "defaultCommandTimeout": 10000,
+    "baseUrl": "http://automationpractice.com/",
+    "baseUrlAPI": "https://jsonplaceholder.typicode.com/",
+    "userWithoutTitle": "{testes}",
+    "testFiles": "**/*.feature"
+}

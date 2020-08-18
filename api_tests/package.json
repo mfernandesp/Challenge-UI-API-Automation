@@ -1,0 +1,20 @@
+{
+  "name": "api_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "author": "Mariane Leite",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^2.5.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "dependencies": {
+    "uws": "^100.0.1"
+  }
+}
